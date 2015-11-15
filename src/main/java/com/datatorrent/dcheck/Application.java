@@ -13,7 +13,7 @@ import com.datatorrent.api.DAG.Locality;
 import com.datatorrent.common.util.FSStorageAgent;
 import com.datatorrent.lib.io.ConsoleOutputOperator;
 
-@ApplicationAnnotation(name="DoubleCheckpoint")
+@ApplicationAnnotation(name="AsyncStorageAgentBug")
 public class Application implements StreamingApplication
 {
 
